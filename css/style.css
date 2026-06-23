@@ -73,16 +73,14 @@ body {
 }
 
 .attribution {
-    color: azure;
-    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .attribution__socialmedia {
     display: flex;
     flex-direction: row;
     gap:20px;
-    padding: 0 40px;
-    width: 100px;
     margin-left: auto;
     margin-right: 10px;
 }
@@ -97,7 +95,7 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
-        place-items: center
+        place-items: center;
     }
 
     .header__picture {
@@ -118,7 +116,7 @@ body {
     }
 
     .attribution__socialmedia {
-        margin: auto;
+        margin: 20px auto;
     }
 }
 
